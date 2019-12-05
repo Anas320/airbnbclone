@@ -445,8 +445,9 @@ this.setState({
         </div>
         <div className="map">
           <GoogleMapReact
+//   YOU CAN PUT YOUR API KEY IN THE LINE BELOW WHERE {{ key: <YOUR API KEY>}}
 
-            bootstrapURLKeys = {{ key: 'AIzaSyBxuDvvvAEk0SCERQ4wc7xfLeTHynMrMNg' }} 
+            bootstrapURLKeys = {{ key: 'AIzaSyAi66M2xnqwm7bCpEYY0Ksp0a7OjuVFAKE' }} 
             center={center}
             zoom={12}
             //yesIWantToUseGoogleMapApiInternals
